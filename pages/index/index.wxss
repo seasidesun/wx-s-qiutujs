@@ -1,0 +1,53 @@
+/**index.wxss**/
+
+.bg-index {
+  background-image: url(http://7xii35.com1.z0.glb.clouddn.com/s-qt-bg01.jpg);
+  background-size: cover;
+  filter: blur(2px);
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right:0;
+  z-index: -1;
+}
+
+.title-box {
+  text-align: center;
+  padding-top: 200rpx;
+  
+}
+.title-box .slogan {
+  display: block;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #eee;
+  font-size: 40rpx;
+}
+.title-box .slogan .strong {
+  font-size: 100rpx;
+}
+
+.movements-item {
+  height: 100px;
+  width: 100px;
+  border: solid 1px #eee;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

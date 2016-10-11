@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+<view class="bg-index"></view>
+
+  <view class="title-box">
+    <text class="slogan">你是要做个一辈子的懦夫</text>
+    <text class="slogan">还是一个<strong>强者</strong></text>
+  </view>
+  <view bindtap="bindViewTap" class="movements-item"></view>
+  <!--<view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>-->
+</view>
