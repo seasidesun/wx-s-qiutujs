@@ -4,9 +4,10 @@
     "pages/logs/logs"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "backgroundTextStyle":"black",
+    "backgroundColor":"#eee",
+    "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "QIUTUJS",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
   }
 }

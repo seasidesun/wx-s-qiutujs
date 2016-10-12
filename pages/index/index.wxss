@@ -1,35 +1,134 @@
 /**index.wxss**/
 
 .bg-index {
-  background-image: url(http://7xii35.com1.z0.glb.clouddn.com/s-qt-bg01.jpg);
-  background-size: cover;
-  filter: blur(2px);
-  position: absolute;
-  top: 0; bottom: 0; left: 0; right:0;
-  z-index: -1;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right:0;
+
+    /*border-top: .1em solid white;*/
+    z-index: -1;
+    background-image: url(http://7xii35.com1.z0.glb.clouddn.com/s-qt-bg01.jpg);
+    /*background-image: url(http://7xl4qs.com1.z0.glb.clouddn.com/portal_main.jpg);*/
+    background-size: cover;
 }
 
 .title-box {
-  text-align: center;
-  padding-top: 200rpx;
-  
+    text-align: center;
+    padding-top: 20rpx;
 }
 .title-box .slogan {
-  display: block;
-  height: 80rpx;
-  line-height: 80rpx;
-  color: #eee;
-  font-size: 40rpx;
+    display: block;
+    height: 80rpx;
+    line-height: 80rpx;
+    margin-right: 60rpx;
+    margin-left: 60rpx;
+
+    text-align: right;
+    color: #eee;
+    font-size: 20rpx;
 }
 .title-box .slogan .strong {
-  font-size: 100rpx;
+    font-size: 100rpx;
 }
 
-.movements-item {
-  height: 100px;
-  width: 100px;
-  border: solid 1px #eee;
+.movements {
+    text-align: center;
+    color: white;
 }
+.movements-item {
+    position: relative;
+    height: 110rpx;
+    width: 85%;
+    left: 50%;
+    margin-left: -42.5%;
+    margin-bottom: 20rpx;
+}
+.movements-item::after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0; bottom: 0; right: 0; left: 0;
+
+    background-color: white;
+    opacity: .3;
+    filter: blur(2rpx);
+    border-radius: 20rpx;
+    margin: 2rpx;
+    z-index: -1;
+}
+.movements-item .mo-icon-box {
+    display: inline-block;
+    position: relative;
+    width: 100rpx;
+    height: 100%;
+    left: 0;
+    top: 0;
+    float: left;
+
+    background-color: #eb5254;
+    border-radius: 20rpx 0 0 20rpx;
+}
+.movements-item .mo-icon-box .tag-img {
+    position: relative;
+    height: 90rpx;
+    width: 90rpx;
+    margin-top: -45rpx;
+    top: 50%;
+    margin-left: 5rpx;
+    float: left;
+}
+.movements-item .info-box {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    margin-left: 30rpx;
+    padding-top: 20rpx;
+    float: left;
+
+    box-sizing: border-box;
+    text-align: left;
+}
+.movements-item .info-box .name {
+    /*display: inline-block;*/
+    /*float: left;*/
+}
+.movements-item .info-box .name-en {
+    /*display: block;*/
+    color: #eb5254;
+}
+.movements-item .info-box .text-l {
+    font-size: 40rpx;
+}
+.movements-item .info-box .text-b {
+    font-size: 20rpx;
+}
+.movements-item .info-box .text-s {
+    font-size: 10rpx;
+}
+
+.movements-item .right {
+    position: relative;
+    width: 80rpx;
+    height: 35%;
+    top: 32.5%;
+    float: right;
+}
+
+.star-none {
+    display: inline-block;
+    width: 40rpx;
+    height: 40rpx;
+    float: right;
+    background-image: url(http://7xl4qs.com1.z0.glb.clouddn.com/star_none.png);
+    background-size: cover;
+}
+.star-fill {
+    display: inline-block;
+    float: left;
+    background-image: url(http://7xl4qs.com1.z0.glb.clouddn.com/star_fill.png);
+}
+
 
 .userinfo {
   display: flex;
