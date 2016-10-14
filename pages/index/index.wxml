@@ -13,11 +13,16 @@
               <view class="mo-icon-box">
                   <image class="tag-img" src="{{item.iconUrl}}" mode="aspectFit"></image>
               </view>
-              <view class="info-box">
-                  <text class="text-l name">{{item.name}}</text><text class="star-none"></text>
+              <view class="text-box">
+                  <text class="text-l name">{{item.name}}</text>
                   <text class="text-s name-en">{{item.nameEn}}</text>
               </view>
               <image class="right" src="http://7xl4qs.com1.z0.glb.clouddn.com/icon_next.svg" mode="scaleToFill"></image>
+              <view class="star-box">
+                  <view wx:for="{{[1,2,3,4,5]}}" wx:for-index="p" wx:for-item="d">
+                      <view class="{{(p<item.level)? 'star-fill star': 'star-none star'}}"></view>
+                  </view>
+              </view>
           </view>
       </view>
   </view>
